@@ -59,7 +59,7 @@ curl -fsSL https://github.com/jayz6/showai-releases/releases/latest/download/ins
 
 That's it. The installer:
 
-1. checks you're on **macOS 14 or newer**,
+1. checks you're on **macOS 14 or newer** (Apple Silicon Mac — M1 or later),
 2. downloads the latest ShowAI,
 3. puts **ShowAI.app** in your **Applications** folder,
 4. starts it — you'll see *"ShowAI is running — press ⌘⇧L"* at the top right.
@@ -198,6 +198,12 @@ Screen Recording isn't granted (or macOS asked you to re-confirm it). Menu › *
 </details>
 
 <details>
+<summary><b>Intel Mac?</b></summary>
+
+Not supported yet — ShowAI currently runs on Apple Silicon Macs (M1 or later).
+</details>
+
+<details>
 <summary><b>Safari / Arc / Firefox?</b></summary>
 
 Not yet — Google Chrome and the ChatGPT/Claude desktop apps for now.
@@ -224,5 +230,5 @@ Not yet — Google Chrome and the ChatGPT/Claude desktop apps for now.
 ---
 
 <div align="center">
-<sub>Requires macOS 14 or newer · Apple Silicon and Intel · Made for people who'd rather ask than explain.</sub>
+<sub>Requires macOS 14 or newer on an Apple Silicon Mac (M1 or later) · Made for people who'd rather ask than explain.</sub>
 </div>
