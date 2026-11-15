@@ -8,7 +8,7 @@
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 ![Updates](https://img.shields.io/badge/updates-automatic-2ea44f)
-![Privacy](https://img.shields.io/badge/data-stays%20on%20your%20Mac-2ea44f)
+![Privacy](https://img.shields.io/badge/sends%20nothing%20to%20us-2ea44f)
 ![Free](https://img.shields.io/badge/price-free-blue)
 
 **[Install](#-install-30-seconds) · [First-time setup](#-first-time-setup-2-minutes) · [Use it](#-everyday-use) · [Set & forget](#-set-it-and-forget-it) · [Updates](#-automatic-updates) · [Help](#-troubleshooting) · [Privacy](#-privacy) · [Uninstall](#-uninstall)**
@@ -59,7 +59,7 @@ curl -fsSL https://github.com/jayz6/showai-releases/releases/latest/download/ins
 
 That's it. The installer:
 
-1. checks you're on **macOS 14 or newer** (Apple Silicon Mac — M1 or later),
+1. checks you're on **macOS 14 or newer** (Apple Silicon Mac — M1 or later; you'll need **Google Chrome** or the ChatGPT/Claude app),
 2. downloads the latest ShowAI,
 3. puts **ShowAI.app** in your **Applications** folder,
 4. starts it — you'll see *"ShowAI is running — press ⌘⇧L"* at the top right.
@@ -213,7 +213,7 @@ Not yet — Google Chrome and the ChatGPT/Claude desktop apps for now.
 
 ## 🔒 Privacy
 
-- **Nothing leaves your Mac.** No account, no analytics, no tracking.
+- **ShowAI sends nothing to us.** Your screenshot goes only to the AI chat you choose. No account, no analytics, no tracking.
 - Screenshots exist **only in memory and on your clipboard** (marked so clipboard managers skip them). They are never saved to disk.
 - Only the window you're looking at is captured — not your whole screen — and only when you press the hotkey.
 - The **only** network request ShowAI makes is the daily update check (a small file from this page), which you can switch off.
@@ -230,5 +230,5 @@ Not yet — Google Chrome and the ChatGPT/Claude desktop apps for now.
 ---
 
 <div align="center">
-<sub>Requires macOS 14 or newer on an Apple Silicon Mac (M1 or later) · Made for people who'd rather ask than explain.</sub>
+<sub>Requires macOS 14 or newer on an Apple Silicon Mac (M1 or later) · <a href="https://jayz6.github.io/showai-website/">Website</a> · <a href="https://jayz6.github.io/showai-website/privacy.html">Privacy policy</a> · Made for people who'd rather ask than explain.</sub>
 </div>
